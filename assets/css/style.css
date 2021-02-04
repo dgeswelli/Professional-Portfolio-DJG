@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #dbddd9;
+}
+
+.header {
+    padding: 80px;
+    font-family: "Times New Roman";
+    background-color: #041a25;
+    color: #7e0606
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 55px;
+}
+
+.header h1 {
+    color: #7e0606;
+}
+
+.header div, footer div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header div ul, footer div ul {
+    list-style-type: none;
+}
+
+.header div ul li, footer div li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #24b607;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px
+}
+
+.title-image {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/keyimage.png");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 30px;
+}
+
+.phrasing {
+    width: 80%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.about-me img, .projects img, .contact-me img {
+    max-height: 220px;
+}
+
+.about-me h2, .projects h2, .contact-me h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #7e0606;
+    text-decoration: underline;
+}
+
